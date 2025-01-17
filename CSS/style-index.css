@@ -1,0 +1,82 @@
+/* ThiS IS MY CSS FILE WITH ALL THE FORMATTING FOR MY INDEX PAGE sorry for caps */
+* {
+    font-family: 'Poppins';
+}
+header{
+    text-align: center;
+}
+.container {
+    /* border: 2px solid black; */
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+    
+}
+.box{
+    /* border: 2px solid black; */
+    width: 30%;
+    height: 30%;
+    margin: 5px;
+    margin-left: 2vw;
+    
+}
+.portrait{
+    width: 100%;
+} 
+p{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
+.two{
+    /* border: 2px black solid; */
+    /* background-color: red; */
+    width: 40%;
+    align-self: center;
+    
+}
+img, div {
+    /* border: 2px black solid; */
+    width: 50%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 5vw;
+    margin: auto;
+    display: block;
+}
+footer {
+    text-align: center;
+}
+
+/* Navigation */
+ul{
+    /* border: 1px black solid; */
+    justify-content: center;
+    display: flex;
+    gap: 10px;
+}
+a{
+    text-decoration: none;
+}
+ul li{
+    list-style: none;
+    border-radius: 10px;
+}
+ul li button{
+    border: 0px;
+    background-color: #7791BA;
+    color: white;
+    padding: 20px 20px;
+    border-radius: 10px;
+    transition: all 0.2s ease-in-out;
+}
+ul li button:hover{
+    background-color: #495b6f;
+    padding: 25px 30px;
+}
+ul li button a{
+    color: white;
+}
